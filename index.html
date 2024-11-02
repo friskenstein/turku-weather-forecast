@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+		<script src="main.js" charset="utf-8" defer></script>
+	</head>
+	<body>
+
+		<h1>Turku Weather Forecast</h1>
+
+		<article>
+
+			<section>
+				<h2>Temperature (°C)</h2>
+				<canvas id="htmlChartTemp" width="1000" height="500"></canvas>
+			</section>
+
+			<section>
+				<h2>Wind Speed (m/s)</h2>
+				<canvas id="canvasWindSpeed" width="500" height="500"></canvas>
+			</section>
+
+			<!--
+				<h2>Relative Humidity (%)</h2>
+				<canvas id="canvasChartHumidity" width="800" height="800"></canvas>
+			-->
+
+			<section>
+				<h2>Wind UV (m/s)</h2>
+				<canvas id="canvasChartWind" width="500" height="500"></canvas>
+			</section>
+
+			<section>
+				<h2>Precipitation</h2>
+				<canvas id="canvasChartPreci" width="500" height="500"></canvas>
+			</section>
+
+		</article>
+	</body>
+</html>
