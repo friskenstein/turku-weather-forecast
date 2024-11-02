@@ -37,7 +37,7 @@ async function getForecast(url) {
 
 
 async function main() {
-	let url = 'http://opendata.fmi.fi/wfs?service=WFS&version=2.0.0';
+	let url = 'https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0';
 	url += '&storedquery_id=fmi::forecast::harmonie::surface::point::timevaluepair';
 	url += '&request=getFeature&place=turku';
 	// url += '&parameters=Temperature,Humidity';
